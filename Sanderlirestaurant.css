@@ -1,0 +1,35 @@
+body { 
+    margin: 40px;
+    font-family: verdana;
+}
+nav { 
+text-align:left;
+font-size: 100%;
+font-family: verdana;
+}
+h1 { 
+    font-size: 300%;
+    font-family: sans-serif;
+}
+img {
+  width: 50%;
+  height: 50%;
+}
+hr {
+    text-height: 10px;
+}
+dt { 
+    font-weight: bold;
+    font-family:verdana
+}
+dd {
+    
+}
+
+.menu {
+text-align:center;
+}
+
+.allergener {
+    font-style: italic;
+}
