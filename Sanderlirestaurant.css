@@ -7,23 +7,54 @@ text-align:left;
 font-size: 100%;
 font-family: verdana;
 }
+
+a:link, a:visited {
+        background-color: green;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
+      
+      a:hover, a:active {
+        background-color: lightgreen;
+}
 h1 { 
     font-size: 300%;
     font-family: sans-serif;
 }
+
+#banner {
+    background-color: blanchedalmond;
+    padding: 25px 30px;
+}
+
+h3 {
+    color: green;
+}
+
+hr {
+    border:none;
+    border-top:1px solid;
+    margin: 10px auto; 
+    width:30em;
+}
+
+em {
+    color: gray;
+}
+
+
+
 img {
   width: 50%;
   height: 50%;
 }
-hr {
-    text-height: 10px;
-}
+
 dt { 
     font-weight: bold;
     font-family:verdana
-}
-dd {
-    
 }
 
 .menu {
