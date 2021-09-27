@@ -13,12 +13,14 @@ body{
 h1{
     margin-bottom: 0px;
     letter-spacing: 10px;
+    margin-top: 20px;
 }
 h2{
     border-style: double;
     display: inline-flex;
     padding: 10px;
     margin-bottom: 0px;
+    font-weight: normal;
 }
 /* Site Navigation */
 
@@ -53,6 +55,6 @@ a:hover:after {
     list-style: none;
     float: left;
     padding-right: 2px;
-    padding-bottom: 0px;
+    padding-bottom: 50px;
 }
 /* End Site Navigation */
