@@ -2,6 +2,16 @@
 body{
     background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
 }
+
+h1{
+    margin-bottom: 0px;
+}
+h2{
+    border-style: double;
+    display: inline-flex;
+    padding: 10px;
+    margin-bottom: 0px;
+}
 /* Site Navigation */
 
 a:after {
@@ -9,7 +19,7 @@ a:after {
     display: block;
     width: 0;
     border-bottom: 1px solid;
-    margin: 0 auto;
+    margin: 8px;
     transition:all 0.3s linear 0s;
 }
 
@@ -18,7 +28,7 @@ a:hover:after {
 }
 
 .topnav{
-    margin-top: 20px;
+    margin-top: 0px;
     display: flex;
     justify-content: center;
 }
@@ -35,6 +45,6 @@ a:hover:after {
     list-style: none;
     float: left;
     padding-right: 2px;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
 }
 /* End Site Navigation */
