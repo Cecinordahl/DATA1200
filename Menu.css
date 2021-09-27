@@ -1,1 +1,40 @@
 
+body{
+    background: rgba(76, 175, 80, 0.3) /* Green background with 30% opacity */
+}
+/* Site Navigation */
+
+a:after {
+    content: "";
+    display: block;
+    width: 0;
+    border-bottom: 1px solid;
+    margin: 0 auto;
+    transition:all 0.3s linear 0s;
+}
+
+a:hover:after {
+    width: 90%;
+}
+
+.topnav{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+.topnav ul{
+    margin: 0;
+    padding: 0;
+}
+.topnav li{
+    list-style: none;
+    float: left;
+    padding-right: 2px;
+    padding-bottom: 40px;
+}
+/* End Site Navigation */

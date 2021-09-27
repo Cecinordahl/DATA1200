@@ -2,11 +2,17 @@ body {
     margin: 40px;
     font-family: verdana;
 }
+
 nav { 
 text-align:left;
 font-size: 100%;
 font-family: verdana;
 }
+
+a {
+    text-decoration: none;
+}
+
 h1 { 
     font-size: 300%;
     font-family: sans-serif;
@@ -17,13 +23,6 @@ img {
 }
 hr {
     text-height: 10px;
-}
-dt { 
-    font-weight: bold;
-    font-family:verdana
-}
-dd {
-    
 }
 
 .menu {
