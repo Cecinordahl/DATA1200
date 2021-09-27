@@ -3,16 +3,6 @@ body {
     font-family: verdana;
 }
 
-nav { 
-text-align:left;
-font-size: 100%;
-font-family: verdana;
-}
-
-a {
-    text-decoration: none;
-}
-
 h1 { 
     font-size: 300%;
     font-family: sans-serif;
@@ -32,3 +22,40 @@ text-align:center;
 .allergener {
     font-style: italic;
 }
+
+/* Site Navigation */
+
+a:after {
+    content: "";
+    display: block;
+    width: 0;
+    border-bottom: 1px solid;
+    margin: 0;
+    transition:all 0.3s linear 0s;
+}
+
+a:hover:after {
+    width: 100%;
+}
+
+.topnav{
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+}
+.topnav a{
+    text-decoration: none;
+    color: black;
+    padding: 5px 10px;
+}
+.topnav ul{
+    margin: 0;
+    padding: 0;
+}
+.topnav li{
+    list-style: none;
+    float: left;
+    padding-right: 2px;
+    padding-bottom: 50px;
+}
+/* End Site Navigation */
