@@ -39,6 +39,17 @@ h3{
     padding-bottom: 30px;
 }
 
+.about-content{
+    border-style: solid;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 50px;
+    background-color: beige;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 .contact-content{
     border-style: solid;
     margin-left: 30%;
