@@ -3,11 +3,9 @@ body{
     background-color: darkseagreen;
     padding-bottom: 70px;
 }
-
 header{
     margin-top: 100px;
 }
-
 h1{
     margin-bottom: 0px;
     letter-spacing: 5px;
@@ -20,12 +18,15 @@ h2{
     margin-bottom: 0px;
     font-weight: normal;
 }
-
 h3{
     margin-top: 30px;
     margin-bottom: 0;
 }
 
+img {
+    border: solid;
+    width: 44%;
+}
 @font-face {
     font-family: 'Poppins';
     src: url(Fonts/Poppins-Medium.ttf)
@@ -39,7 +40,6 @@ h3{
     background-color: beige;
     padding-bottom: 30px;
 }
-
 .about-content{
     border-style: solid;
     margin-left: 30%;
@@ -50,7 +50,6 @@ h3{
     padding-left: 10px;
     padding-right: 10px;
 }
-
 .contact-content{
     border-style: solid;
     margin-left: 30%;
@@ -59,18 +58,11 @@ h3{
     background-color: beige;
     padding-bottom: 8px;
 }
-
 .opening {
     border-style: dotted; 
     margin-left: 50px;
     margin-right: 50px;
 }
-
-img {
-    border: solid;
-    width: 44%;
-  }
-
 
 /* Home HTML */
 .home-content {
@@ -95,7 +87,6 @@ img {
     margin-right: 10px;
     max-width: fit-content;
 }
-
 /* end Home HTML */
 
 /* Site Navigation */
