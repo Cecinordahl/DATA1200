@@ -15,9 +15,9 @@ body {
 header {
     margin-top: 100px;
 }
-    @font-face {
-        font-family: Vouge;
-        src: url(/Fonts/Vogue.ttf);
+@font-face {
+    font-family: Vouge;
+    src: url(/Vogue.ttf);
     }
 
 
