@@ -3,6 +3,13 @@ body {
     background-color: darkseagreen;
 }
 
+.rapport-content{
+    padding: 20px;
+    border-style: solid;
+    margin: 30px 30% 30px;
+    background-color: beige;
+}
+
 .content {
     border-style: solid;
     margin-left: 30%;
